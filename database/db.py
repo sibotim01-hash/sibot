@@ -121,9 +121,9 @@ class Database:
     """Async database manager"""
     
     def __init__(self, database_url: str):
-        if database_url.startswith("postgresql://"):
-    database_url = database_url.replace("postgresql://", "postgresql+asyncpg://", 1)
-self.engine = create_async_engine(database_url, echo=False)
+    if database_url.startswith("postgresql://"):
+        database_url = database_url.replace("postgresql://", "postgresql+asyncpg://", 1)
+    self.engine = create_async_engine(database_url, echo=False)
         self.session_factory = async_sessionmaker(
             self.engine, 
             class_=AsyncSession,
