@@ -1,0 +1,34 @@
+2026-03-05 12:40:14,672 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-03-05 12:40:14,676 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-03-05 12:40:14,676 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-03-05 12:40:14,676 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-03-05 12:40:14,678 - apscheduler.scheduler - INFO - Added job "SchedulerService.scan_all_channels" to job store "default"
+2026-03-05 12:40:14,678 - apscheduler.scheduler - INFO - Added job "RatingService.calculate_daily_rating" to job store "default"
+2026-03-05 12:40:14,678 - apscheduler.scheduler - INFO - Added job "SchedulerService.run_cross_promotion" to job store "default"
+2026-03-05 12:40:14,679 - apscheduler.scheduler - INFO - Added job "SchedulerService.check_scheduled_posts" to job store "default"
+2026-03-05 12:40:14,679 - apscheduler.scheduler - INFO - Scheduler started
+2026-03-05 12:40:14,752 - aiogram.dispatcher - INFO - Start polling
+2026-03-05 12:40:17,668 - aiogram.dispatcher - INFO - Run polling for bot @siaibotimbot id=8743648292 - 'SIBOT'
+2026-03-05 12:41:14,679 - apscheduler.executors.default - INFO - Running job "SchedulerService.check_scheduled_posts (trigger: interval[0:01:00], next run at: 2026-03-05 12:42:14 +05)" (scheduled at 2026-03-05 12:41:14.676824+05:00)
+2026-03-05 12:41:14,692 - apscheduler.executors.default - INFO - Job "SchedulerService.check_scheduled_posts (trigger: interval[0:01:00], next run at: 2026-03-05 12:42:14 +05)" executed successfully
+2026-03-05 12:41:29,429 - aiogram.event - INFO - Update id=79101951 is handled. Duration 367 ms by bot id=8743648292
+2026-03-05 12:42:03,090 - aiogram.event - INFO - Update id=79101952 is handled. Duration 189 ms by bot id=8743648292
+2026-03-05 12:42:06,073 - aiogram.event - INFO - Update id=79101953 is handled. Duration 253 ms by bot id=8743648292
+2026-03-05 12:42:12,915 - aiogram.event - INFO - Update id=79101954 is handled. Duration 259 ms by bot id=8743648292
+2026-03-05 12:42:14,688 - apscheduler.executors.default - INFO - Running job "SchedulerService.check_scheduled_posts (trigger: interval[0:01:00], next run at: 2026-03-05 12:43:14 +05)" (scheduled at 2026-03-05 12:42:14.676824+05:00)
+2026-03-05 12:42:14,690 - apscheduler.executors.default - INFO - Job "SchedulerService.check_scheduled_posts (trigger: interval[0:01:00], next run at: 2026-03-05 12:43:14 +05)" executed successfully
+2026-03-05 12:42:18,365 - aiogram.event - INFO - Update id=79101955 is handled. Duration 149 ms by bot id=8743648292
+2026-03-05 12:42:25,050 - aiogram.event - INFO - Update id=79101956 is not handled. Duration 4 ms by bot id=8743648292
+2026-03-05 12:42:29,499 - aiogram.event - INFO - Update id=79101957 is handled. Duration 162 ms by bot id=8743648292
+2026-03-05 12:42:41,050 - aiogram.event - INFO - Update id=79101958 is handled. Duration 532 ms by bot id=8743648292
+2026-03-05 12:42:45,575 - aiogram.event - INFO - Update id=79101959 is handled. Duration 142 ms by bot id=8743648292
+2026-03-05 12:42:52,976 - aiogram.event - INFO - Update id=79101960 is handled. Duration 292 ms by bot id=8743648292
+2026-03-05 12:42:56,989 - aiogram.event - INFO - Update id=79101961 is handled. Duration 392 ms by bot id=8743648292
+2026-03-05 12:43:14,684 - apscheduler.executors.default - INFO - Running job "SchedulerService.check_scheduled_posts (trigger: interval[0:01:00], next run at: 2026-03-05 12:44:14 +05)" (scheduled at 2026-03-05 12:43:14.676824+05:00)
+2026-03-05 12:43:14,686 - apscheduler.executors.default - INFO - Job "SchedulerService.check_scheduled_posts (trigger: interval[0:01:00], next run at: 2026-03-05 12:44:14 +05)" executed successfully
+2026-03-05 12:44:14,679 - apscheduler.executors.default - INFO - Running job "SchedulerService.check_scheduled_posts (trigger: interval[0:01:00], next run at: 2026-03-05 12:45:14 +05)" (scheduled at 2026-03-05 12:44:14.676824+05:00)
+2026-03-05 12:44:14,681 - apscheduler.executors.default - INFO - Job "SchedulerService.check_scheduled_posts (trigger: interval[0:01:00], next run at: 2026-03-05 12:45:14 +05)" executed successfully
+2026-03-05 12:45:14,686 - apscheduler.executors.default - INFO - Running job "SchedulerService.check_scheduled_posts (trigger: interval[0:01:00], next run at: 2026-03-05 12:46:14 +05)" (scheduled at 2026-03-05 12:45:14.676824+05:00)
+2026-03-05 12:45:14,688 - apscheduler.executors.default - INFO - Job "SchedulerService.check_scheduled_posts (trigger: interval[0:01:00], next run at: 2026-03-05 12:46:14 +05)" executed successfully
+2026-03-05 12:46:14,678 - apscheduler.executors.default - INFO - Running job "SchedulerService.check_scheduled_posts (trigger: interval[0:01:00], next run at: 2026-03-05 12:47:14 +05)" (scheduled at 2026-03-05 12:46:14.676824+05:00)
+2026-03-05 12:46:14,680 - apscheduler.executors.default - INFO - Job "SchedulerService.check_scheduled_posts (trigger: interval[0:01:00], next run at: 2026-03-05 12:47:14 +05)" executed successfully
